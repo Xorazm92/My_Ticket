@@ -2,6 +2,7 @@ import { CustomerAddress }       from './customer_address/models/customer_addres
 import { VenueVenueType }        from './venue_venue_type/models/venue_venue_type.model';
 import { HumanCategory }         from './human_category/models/human_category.model';
 import { CustomerAddressModule } from './customer_address/customer_address.module';
+import { SmsModule } from './sms/sms.module';
 import { VenueVenueTypeModule }  from './venue_venue_type/venue_venue_type.module';
 import { CustomerCard }          from './customer_card/models/customer_card.model';
 import { TicketStatus }          from './ticket_status/models/ticket_status.model';
@@ -113,7 +114,8 @@ import { join }                  from 'path';
     AdminModule,
     FileModule,
     CartModule,
-    BookingModule
+    BookingModule,
+    SmsModule
   ],
   controllers: [],
 })
