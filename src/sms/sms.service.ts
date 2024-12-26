@@ -8,7 +8,7 @@ export class AppService {
     async sendSMS() {
       return this.twilioService.client.messages.create({
         body: 'SMS Body, sent to the phone!',
-        from: '+18777804236',
+        from: '+12186566819',
         to: '+998977771053',
       });
     }
